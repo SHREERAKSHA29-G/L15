@@ -3,7 +3,7 @@ using namespace std;
 class second
 {
     public:
-    int x,y;
+    int a,b;
     void msg();
     void sum();
 };
@@ -13,13 +13,13 @@ void second::msg()
 }
 void second::sum()
 {
-    cout<<"The sum is :"<<x+y<<endl;
+    cout<<"The sum is :"<<a+b<<endl;
 }
 int main()
 {
     second s;
-    cout<<"Enter x and y:";
-    cin>>s.x>>s.y;
+    cout<<"Enter a and b:";
+    cin>>s.a>>s.b;
     s.msg();
  s.sum();
 }
